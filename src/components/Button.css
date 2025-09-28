@@ -1,0 +1,27 @@
+.custom-button {
+
+  border-radius: 4px;
+  padding: 8px 16px;
+  gap: 10px;
+  opacity: 1;
+  background: linear-gradient(180deg, #444444 0%, #333333 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1); 
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3); 
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+
+.custom-button.hovered {
+  background: #444444; 
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3); /* Black30 */
+}
+
+
+.custom-button.pressed {
+  background: #444444; 
+  border: 1px solid #1F1F1F; 
+  box-shadow: none;
+}
