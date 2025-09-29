@@ -100,7 +100,3 @@ You can customize the popup appearance by modifying the CSS variables and styles
 - Vite
 - CSS3
 - SVG icons
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
